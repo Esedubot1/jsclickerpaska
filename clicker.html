@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projects</title>
+</head>
+
+<body>
+    <!--Navigaatio-->
+    <div class="navbar">
+        <div class="container flex">
+            <a href="index.html">Home</a>
+            <a href="projects.html" class="current">Projects</a>
+            <a href="cats.html">Cats</a>
+            <a href="links.html">Links</a>
+        </div>
+    </div>
+
+    <!--Sisältö-->
+    <div class="text">
+        <h1>Klikkaa?</h1>
+        <p id="ohje" style="margin-bottom: 5px">Tässä nappi:</p>
+        <br>
+        <div class="nappi">
+            <input id="klikkaaNappi" type="button" value="(nappi)">
+        </div>
+        <br>
+        <p id="klikkaukset" style="margin: 5px"></p>
+        <div id="ostokset" style="display: flex; justify-content: space-between">
+            <p></p>
+            <p></p>
+        </div>
+        <input id="kerroinNappi" type="button" value="Osta kerroin (100 klikkausta)">
+        <input id="autoNappi" type="button" value="Osta autoklikkeri (250 klikkausta)">
+
+        <script src="js/clicker.js"></script>
+    </div>
+</body>
+
+</html>
